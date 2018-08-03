@@ -51,6 +51,4 @@ Route::get('/admin','AdminController@index');
 
 
 
-Route::get('/test', function () {
-    return;
-});
+Route::get('/test','TestController@index');
